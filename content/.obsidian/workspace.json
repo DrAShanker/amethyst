@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Surgery Knowledge Base/Topics/Surgery/Lectures/Index.md",
+                "file": "Surgery Knowledge Base/Topics/Topic Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Topic Index"
             }
           }
         ],
@@ -198,15 +198,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "006beb8cd7b66cd2",
+  "active": "adb0503f94644bf0",
   "lastOpenFiles": [
-    "Surgery Knowledge Base/Topics/Surgery/State Exam/Index.md",
-    "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery/Index.md",
     "Surgery Knowledge Base/Topics/Surgery/Index.md",
-    "Surgery Knowledge Base/Topics/Surgery/Topics/Index.md",
+    "State Exam",
     "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery/Pancreatic Cancer.md",
-    "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery",
+    "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery/Index.md",
+    "Surgery Knowledge Base/Topics/Surgery/State Exam/Index.md",
     "Surgery Knowledge Base/Topics/Surgery/Lectures/Index.md",
+    "Surgery Knowledge Base/Topics/Surgery/Topics/Index.md",
+    "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery",
     "Surgery Knowledge Base/Topics/Topic Index.md",
     "Surgery Knowledge Base/Topics/Surgery/Lectures",
     "Surgery Knowledge Base/Topics/Surgery/State Exam",
@@ -214,7 +215,6 @@
     "Surgery Knowledge Base/Topics/Surgery/Untitled.md",
     "Surgery Knowledge Base",
     "Lectures",
-    "State Exam",
     "index.md",
     "Surgery Knowledge Base/Topics/Surgery/Test.md",
     "Topics/Topic Index.md",
