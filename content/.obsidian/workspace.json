@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Surgery Knowledge Base/Topics/Topic Index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic Index"
+              "title": "index"
             }
           }
         ],
@@ -201,6 +201,14 @@
   "active": "adb0503f94644bf0",
   "lastOpenFiles": [
     "Surgery Knowledge Base/Topics/Surgery/Index.md",
+    "index.md",
+    "Surgery Knowledge Base/Topics/Topic Index.md",
+    "Topics",
+    "Lectures",
+    "content/Topics/Surgery/Surgery Index.html.md",
+    "content/Topics/Surgery",
+    "content/Topics",
+    "content",
     "State Exam",
     "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery/Pancreatic Cancer.md",
     "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery/Index.md",
@@ -208,18 +216,11 @@
     "Surgery Knowledge Base/Topics/Surgery/Lectures/Index.md",
     "Surgery Knowledge Base/Topics/Surgery/Topics/Index.md",
     "Surgery Knowledge Base/Topics/Surgery/Topics/HPB Surgery",
-    "Surgery Knowledge Base/Topics/Topic Index.md",
     "Surgery Knowledge Base/Topics/Surgery/Lectures",
     "Surgery Knowledge Base/Topics/Surgery/State Exam",
     "Surgery Knowledge Base/Topics/Surgery/Topics",
     "Surgery Knowledge Base/Topics/Surgery/Untitled.md",
-    "Surgery Knowledge Base",
-    "Lectures",
-    "index.md",
     "Surgery Knowledge Base/Topics/Surgery/Test.md",
-    "Topics/Topic Index.md",
-    "Topics/Surgery/New folder",
-    "Surgery Knowledge Base/Topics/Surgery",
-    "Topics/New folder"
+    "Topics/Topic Index.md"
   ]
 }
