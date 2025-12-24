@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Topics/Surgery/Surgery Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Surgery Index"
             }
           }
         ],
@@ -200,13 +200,13 @@
   },
   "active": "0397ebfc5e56e0ac",
   "lastOpenFiles": [
+    "index.md",
     "Topics/Surgery/Surgery Index.md",
     "Topics/Surgery/Test.md",
     "Topics/Topic Index.md",
     "Topics/Surgery/New folder",
     "Topics/Surgery",
     "Topics/New folder",
-    "index.md",
     "Topics"
   ]
 }
