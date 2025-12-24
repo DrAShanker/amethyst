@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "index"
             }
           }
         ],
@@ -206,7 +206,7 @@
     "Topics/Surgery/New folder",
     "Topics/Surgery",
     "Topics/New folder",
-    "_index.md",
+    "index.md",
     "Topics"
   ]
 }
