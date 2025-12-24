@@ -1,12 +1,7 @@
 ---
-layout: default
 title: Home
 ---
 
-# Welcome
-Welcome to Dr Aparajeya Shanker's Surgery Site. 
+# Welcome to My Surgery Knowledge Base
 
-[[Surgery Knowledge Base/Topics/Topic Index|Topic Index]]
-[[Surgery Knowledge Base/Topics/Surgery/Index|Surgery Index]]
-[[Surgery Knowledge Base/Topics/Surgery/Lectures/Index|Lecture Index]]
-
+[View Topics](./content/Topics/Topic%20Index.html)
