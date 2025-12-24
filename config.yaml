@@ -87,8 +87,7 @@ params:
   links:
     - link_name: Personal 
       link: https://aparajeya.com
-    - link_name: Blog
-      link: https://blog.bencuan.me
+    
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -148,3 +147,5 @@ params:
   
   exclude:
   - archetypes
+permalink: /:path/
+
