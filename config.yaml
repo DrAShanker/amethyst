@@ -1,4 +1,4 @@
-baseURL: https://amethyst.bencuan.me
+baseURL: https://surgerynotes.aparajeya.com
 
 # Book configuration
 disablePathToLower: true
@@ -25,13 +25,13 @@ menu:
   #     weight: 10
   after:
     - name: "Github"
-      url: "https://github.com/64bitpandas/amethyst"
+      url: "https://github.com/DrAShanker/amethyst/"
       weight: 10
 
 params:
 
-  name: Ben Cuan
-  title: 📓 Amethyst
+  name: Dr Aparajeya Shanker
+  title: 📓 Dr Shanker's Surgery Notes
 
   # OPTIONAL: custom favicon location
   # favicon: 'location/to/favicon.png'
@@ -70,7 +70,7 @@ params:
   enableMermaid: true
 
   # Link to your Github repo
-  GitHubLink: https://github.com/64bitpandas/amethyst
+  GitHubLink: https://github.com/DrAShanker/amethyst/
 
   # Search (WIP)
   search:
@@ -85,8 +85,8 @@ params:
   
   # Footer links
   links:
-    - link_name: Website
-      link: https://bencuan.me
+    - link_name: Personal 
+      link: https://aparajeya.com
     - link_name: Blog
       link: https://blog.bencuan.me
 
@@ -145,3 +145,6 @@ params:
   BookSearch: false
   BookServiceWorker: false
   BookPortableLinks: false
+  
+  exclude:
+  - archetypes

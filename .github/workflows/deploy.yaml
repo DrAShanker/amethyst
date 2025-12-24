@@ -1,39 +1,46 @@
-name: Deploy to GitHub Pages
+name: Deploy GitHub Pages
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.18
-        with:
-          index: true
-          input: content
-          output: assets/indices
-          root: .
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Build site with Jekyll
+        uses: actions/jekyll-build@v1
         with:
-          hugo-version: '0.96.0'
-          extended: true
+          source: .
+          destination: ./_site
 
-      - name: Build
-        run: hugo --minify
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: deploy  # deploying branch
-          cname: amethyst.bencuan.me
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
