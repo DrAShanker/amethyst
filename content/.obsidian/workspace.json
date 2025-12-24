@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Surgery Knowledge Base/Topics/Topic Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Topic Index"
             }
           }
         ],
@@ -200,8 +200,8 @@
   },
   "active": "adb0503f94644bf0",
   "lastOpenFiles": [
-    "Surgery Knowledge Base/Topics/Surgery/Index.md",
     "index.md",
+    "Surgery Knowledge Base/Topics/Surgery/Index.md",
     "Surgery Knowledge Base/Topics/Topic Index.md",
     "Topics",
     "Lectures",
